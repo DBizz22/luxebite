@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(\"credential.helper \\(global\\): $\\(git config --global credential.helper\\)\"; \"credential.helper \\(system\\): $\\(git config --system credential.helper 2>$null\\)\"; \"---GCM---\"; $gcm = Get-Command git-credential-manager -ErrorAction SilentlyContinue; if \\($gcm\\) { \"GCM: $\\($gcm.Source\\)\" } else { \"GCM: not on PATH\" })",
-      "mcp__github__create_repository"
-    ]
-  }
-}
