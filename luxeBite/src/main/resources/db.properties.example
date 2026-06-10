@@ -1,0 +1,7 @@
+# Copy this file to db.properties and fill in real values, OR set the
+# corresponding environment variables (which take precedence):
+#   DB_URL, DB_USER, DB_PASSWORD, DB_DRIVER
+db.url=jdbc:mysql://localhost:3306/luxebite_db
+db.user=root
+db.password=CHANGE_ME
+# db.driver=com.mysql.cj.jdbc.Driver
